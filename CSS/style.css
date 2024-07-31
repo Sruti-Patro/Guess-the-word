@@ -169,13 +169,14 @@ input:hover {
 
 /* INDEX AND END PAGE ends */
 
-/* BROKEN */
-@media screen and (max-width: 1124PX) {
+/* Responsive Design */
 
-  .nav{
+/* Medium Devices */
+@media screen and (max-width: 1124px) {
+  .nav {
     font-size: 2.7rem;
   }
-  
+
   .head,
   .guess {
     height: 30vh;
@@ -183,10 +184,12 @@ input:hover {
     margin: 4.8rem 0;
     padding: 8vh;
   }
+
   .head h1,
   .guess h1 {
     font-size: 4rem;
   }
+
   input {
     height: 6vh;
     width: 25vw;
@@ -194,24 +197,22 @@ input:hover {
     font-size: 1.5rem;
     padding: 0.7rem;
   }
+
   .clickk {
-    border: 0.2rem lemonchiffon solid;
+    border: 0.2rem solid lemonchiffon;
     height: 5rem;
     width: 13rem;
     padding: 0.2rem;
-    border-radius: 4rem;
     font-size: 2.8rem;
   }
-  
 }
 
-/* TABLETS */
+/* Tablets */
 @media screen and (max-width: 767px) {
-
-  .nav{
+  .nav {
     font-size: 2.25rem;
   }
-  
+
   .head,
   .guess {
     height: 25vh;
@@ -219,10 +220,12 @@ input:hover {
     margin: 4.5rem 0;
     padding: 8vh;
   }
+
   .head h1,
   .guess h1 {
     font-size: 3rem;
   }
+
   input {
     height: 5vh;
     width: 25vw;
@@ -230,24 +233,21 @@ input:hover {
     font-size: 1.5rem;
     padding: 0.7rem;
   }
+
   .clickk {
-    border: 0.2rem lemonchiffon solid;
+    border: 0.2rem solid lemonchiffon;
     height: 4.5rem;
     width: 11rem;
-    padding: 0.2rem;
-    border-radius: 4rem;
     font-size: 2.5rem;
   }
-  
 }
 
-/* PHONE-L */
+/* Large Phones */
 @media screen and (max-width: 678px) {
-
-  .nav{
+  .nav {
     font-size: 2.25rem;
   }
-  
+
   .head,
   .guess {
     height: 25vh;
@@ -255,10 +255,12 @@ input:hover {
     margin: 6rem 0;
     padding: 8vh;
   }
+
   .head h1,
   .guess h1 {
     font-size: 3.2rem;
   }
+
   input {
     height: 5vh;
     width: 25vw;
@@ -266,23 +268,21 @@ input:hover {
     font-size: 1.5rem;
     padding: 0.7rem;
   }
+
   .clickk {
-    border: 0.2rem lemonchiffon solid;
+    border: 0.2rem solid lemonchiffon;
     height: 4.5rem;
     width: 11rem;
-    padding: 0.2rem;
-    border-radius: 4rem;
     font-size: 2.5rem;
   }
-  
 }
-/* PHONE-S */
-@media screen and (max-width: 320px) {
 
-  .nav{
-    font-size: 0.2rem;
+/* Small Phones */
+@media screen and (max-width: 320px) {
+  .nav {
+    font-size: 2rem;
   }
-  
+
   .head,
   .guess {
     height: 20vh;
@@ -290,10 +290,12 @@ input:hover {
     margin: 3.4rem 0;
     padding: 5vh;
   }
+
   .head h1,
   .guess h1 {
     font-size: 2rem;
   }
+
   input {
     height: 5vh;
     width: 23vw;
@@ -301,13 +303,11 @@ input:hover {
     font-size: 1rem;
     padding: 0.1rem;
   }
+
   .clickk {
-    border: 0.2rem lemonchiffon solid;
+    border: 0.2rem solid lemonchiffon;
     height: 3rem;
     width: 7rem;
-    padding: 0.2rem;
-    border-radius: 4rem;
     font-size: 1.5rem;
   }
-  
 }

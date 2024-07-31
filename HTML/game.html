@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="icon" href="../Assets/icon.jpeg" />
+    <style>
+      .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body style="background-color: darkseagreen">
+    <div class="nav">
+      <div class="h1">Let's set the word</div>
+      <div class="newMatch">NEW MATCH</div>
+    </div>
+    <div class="body">
+      <div class="head">
+        <h1>Set the word</h1>
+        <input type="text" class="headAns" />
+      </div>
+      <div class="guess invisible">
+        <h1>Guess the word</h1>
+        <input type="text" class="guessAns" />
+      </div>
+    </div>
+    <div class="butt">
+      <button type="submit" value="set" class="clickk" id="set">
+        Set
+      </button>
+      <button type="submit" value="guess" class="clickk invisible" id="guess">
+        Guess
+      </button>
+    </div>
+  </body>
+  <script src="../javascript/guessWord.js"></script>
+</html>

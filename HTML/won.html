@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>You Won</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="icon" href="../Assets/icon.jpeg" />
+    <style>
+      body{
+        background-image: url(../Assets/wonGif.gif);
+        z-index: -1;
+        background-repeat:no-repeat;
+        background-size: cover;
+        position:static;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="playAgain">
+      <p>Play Again</p>
+    </div>
+    <div class="you-won">
+        <p>You Won</p>
+      </div>
+    
+  </body>
+  <script>
+    let play = document.querySelector(".playAgain");
+    console.log(play);
+    play.onclick = () => {
+      window.location.href = "game.html";
+      console.log("clicked");
+    };
+  </script>
+</html>

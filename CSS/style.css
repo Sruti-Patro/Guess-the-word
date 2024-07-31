@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.play p {
+  text-align: center;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 5rem;
+  font-family: 'Courier New', Courier, monospace;
+  /* animation: neonGlow1 1.5s infinite alternate; */
+  animation: fadeIn 1.5s ease forwards infinite;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 1; }
+  25%{ opacity: 0;}
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+  from {
+    text-shadow: 0 0 10px #a06c19, 0 0 20px #a06c19, 0 0 30px #a06c19;
+  }
+  to {
+    text-shadow: 0 0 5px #3399ff, 0 0 10px #3399ff, 0 0 15px #3399ff;
+  }
+}
+
+.playAgain p{
+  display: inline;
+  color: #ccc41f;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: grab;
+  transition: all 1s ease-in-out;
+  animation: neonGlow1 1.5s infinite alternate;
+  display: flex;
+  flex-direction: column;
+}
+
+.you-won p {
+  display: flex;
+  flex-direction: column;
+  display: inline;
+  color: #ccc41f;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: grab;
+  transition: all 1s ease-in-out;
+  animation: neonGlow 1.5s infinite alternate;
+}
+
+.playAgain{
+  text-align: center;
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  font-size: 3rem;
+  padding: 3%;
+  /* height: 100vh; */
+}
+.you-won {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92.5vh;
+  font-size: 5rem;
+  padding: 3%;
+}
+
+@keyframes neonGlow {
+  from {
+    text-shadow: 0 0 10px #a06c19, 0 0 20px #a06c19, 0 0 30px #a06c19;
+  }
+  to {
+    text-shadow: 0 0 5px #792c2c, 0 0 10px #792c2c, 0 0 15px #792c2c;
+  }
+}
+
+@keyframes neonGlow1 {
+  from {
+    text-shadow: 0 0 10px #68629b, 0 0 20px #9b8562, 0 0 30px #9b8562;
+  }
+  to {
+    text-shadow: 0 0 5px #3399ff, 0 0 10px #3399ff, 0 0 15px #3399ff;
+  }
+}
+
+/* homepage animation ends */
+.head,
+.guess {
+  background: cadetblue;
+  text-align: center;
+  height: 30vh;
+  width: 45vw;
+  color: #fff;
+  margin: 5rem 0;
+  padding: 10vh;
+  border-color: lemonchiffon; /* Change border color on hover */
+  box-shadow: 0px 0px 100px rgba(255, 250, 20, 0.5); /* Add a slight box shadow on hover */
+}
+
+.head h1,
+.guess h1 {
+  flex-wrap: wrap;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 4rem;
+  cursor: grab;
+}
+
+input {
+  height: 6vh;
+  width: 30vw;
+  margin: 4rem;
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  text-wrap:pretty;
+  border: solid cadetblue 3px;
+  border-radius: 6vh;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 0px 100px rgba(255, 250, 20, 0.5);
+}
+
+.clickk:hover,
+input:hover {
+  box-shadow: 0px 0px 10px rgba(54, 58, 21, 0.5);
+}
+.invisible {
+  display: none;
+}
+
+.butt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clickk {
+  border: 0.3rem cadetblue solid;
+  background-color: cadetblue;
+  color: #fff;
+  height: 6rem;
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 4rem;
+  text-align: center;
+  border-color: lemonchiffon;
+  box-shadow: 0px 0px 100px rgba(255, 250, 20, 0.5);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  cursor: grab;
+}
+
+.nav{
+  background-color: cadetblue;
+  box-shadow: 0px 0px 100px rgba(255, 250, 20, 0.5);
+  color: lemonchiffon;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.newMatch:hover{
+  box-shadow: 0px 0px 100px rgba(255, 250, 20, 0.5);
+}
+
+.h1{
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  /* Adjustments for .head and .guess */
+  .head,
+  .guess {
+    height: 30vh;
+    width: 45vw;
+    margin: 5rem 0;
+    padding: 10vh;
+  }
+
+  /* Adjustments for input */
+  input {
+    width: 30vw;
+    margin: 4rem;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  /* Adjustments for .clickk */
+  .clickk {
+    height: 6rem;
+    width: 15rem;
+    padding: 1rem;
+    font-size: 3rem;
+  }
+}
+
+/* Styles for tablets */
+@media screen and (max-width: 767px) {
+  /* Adjustments for .head and .guess */
+  .head,
+  .guess {
+    width: 70vw;
+    margin: 3rem auto;
+    padding: 8vh;
+  }
+
+  /* Adjustments for input */
+  input {
+    width: 50vw;
+    margin: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  /* Adjustments for .clickk */
+  .clickk {
+    height: 5rem;
+    width: 12rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+}
+
+/* Styles for mobile screens */
+@media screen and (max-width: 480px) {
+  .head,
+  .guess {
+    width: 90vw;
+    margin: 2rem auto;
+    padding: 5vh;
+  }
+
+  input {
+    width: 80vw;
+    margin: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+
+  .clickk {
+    height: 4rem;
+    width: 10rem;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+  }
+}

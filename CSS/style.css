@@ -280,7 +280,7 @@ input:hover {
 @media screen and (max-width: 320px) {
 
   .nav{
-    font-size: 0.7rem;
+    font-size: 0.2rem;
   }
   
   .head,

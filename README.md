@@ -27,12 +27,9 @@ Inspired by classic word puzzles, **Guess the Word** combines simplicity with ch
 
 ## 💬 Feedback & Contributions
 
-We love hearing from players! Whether you have suggestions, encounter bugs, or just want to share your high score, connect with us:
-- Open an issue or contribute on our [GitHub repository](https://github.com/Sruti-Patro/Guess-the-word)
-- Drop us a line at [feedback@guess-the-word.com](mailto:feedback@guess-the-word.com)
+We love hearing from players! Whether you have suggestions or encounter bugs, connect with us:
+- Open an issue or share your thoughts on our [GitHub repository](https://github.com/Sruti-Patro/Guess-the-word)
 
-
----
 
 **Ready to dive into a world of words?** [Start guessing now!/ Game Link](https://sruti-patro.github.io/Guess-the-word/)
 

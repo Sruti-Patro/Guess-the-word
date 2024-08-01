@@ -13,7 +13,7 @@ Get ready for a word-guessing adventure where every letter counts! **Guess the W
 
 - **🧩 Minimalist Design**: A sleek, user-friendly interface that keeps the focus on the game.
 - **💫 Smooth Animations**: Enjoy elegant animations that make each interaction a delight.
-- **📱 Responsive Experience**: Seamlessly play on any device—whether you're on a desktop, tablet, or smartphone.
+- **📱 Responsive Experience**: We are working on making your gaming experience more smooth by bring in more responsiveness for smart phones too as seen in Laptop and tablet versions.
 
 ## 🔧 Tech Stack
 
@@ -23,7 +23,16 @@ Get ready for a word-guessing adventure where every letter counts! **Guess the W
 
 ## 🌟 What Makes This Game Special?
 
-Inspired by classic word puzzles, **Guess the Word** combines simplicity with challenge. It's a playground for your brain, helping you sharpen your vocabulary and problem-solving skills while having a blast. The clean design and intuitive interface make it easy to jump in and start playing, no matter where you are.
+Inspired by classic word puzzles, **Guess the Word** combines simplicity with challenge. The clean design and intuitive interface make it easy to jump in and start playing, no matter where you are. More is yet to come Here’s a possible streamlined list:
+
+- Hints
+- Guess Time Limit
+- Difficulty Levels & Categories
+- Different Player Modes
+- Sound & Music
+- Responsive Design
+
+---
 
 ## 💬 Feedback & Contributions
 
